@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Source Serif Pro', serif;
+    src: url(../../extra/fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf)
+  }
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 40px;
+}
+
+h1{
+    font-family: serif Pro;
+    font-size: large;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-family: serif Pro;
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.text__link:hover {
+  text-decoration-color: blue;
+  text-decoration: 'none';
+}
+
+

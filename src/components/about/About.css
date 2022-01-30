@@ -1,0 +1,61 @@
+.about{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1 {
+    font-size: 38px;
+}
+
+.about__image > img {
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 45px;
+
+}
+
+.about__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.about__content-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.about__content-intro p {
+    margin-top: 18px;
+}
+
+.about__content-skill p {
+    margin-top: 18px;
+}
+
+.about__content-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 768px) {
+    .about__content {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+  }
+
+

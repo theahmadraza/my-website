@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialLinks{
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.social:hover{
+    color: blue;
+}
+
+.divider{
+    margin-top: 40px;
+    width: 50%;
+}

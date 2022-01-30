@@ -1,0 +1,68 @@
+.contact{
+    display: flex;
+    width: 100%;
+    height: 440px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.call{
+    color: white;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.email{
+    color: white;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.duo{
+    color: white;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 768px) {
+    .contact {
+      height: auto;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .email, .duo, .call {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      align-items: center;
+      justify-content: center;
+    }
+  }

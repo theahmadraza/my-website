@@ -1,0 +1,31 @@
+.home{
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__profileImage > img{
+    object-fit: cover;
+    height: 106px;
+    width: 106px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.home__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.home__text p{
+    margin-top: 15px;
+}
